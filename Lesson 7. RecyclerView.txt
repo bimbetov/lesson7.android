@@ -1,0 +1,15 @@
+Lesson 7.
+1)
+- Displays items in a list or a grid.
+- Scrolls vertically or horizontally.
+- Allows custom layouts when a list or a grid is not enough for the use case.
+2)
+- Efficiently displays large lists
+- Reuses view that scrolls off screen to display the next item that scrolls on screen.
+3)
+- RecyclerView is agnostic to the data that is being displayed.
+- Data processing layers do not have to concern themselves with how data will be displayed
+4) 
+- The ViewHolder layout is defined in XML layout files.
+- You can have more than one ViewHolder in a RecyclerView.
+- The Adapter binds data to the ViewHolder.
